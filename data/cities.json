@@ -1,50 +1,52 @@
-[
-  {
-    "cityName": "Indore",
-    "country": "India",
-    "emoji": "🇮🇳",
-    "date": "2022-04-31T15:59:59.138Z",
-    "notes": "My favorite city so far !!. Cleanest city of India and it's true. Street food are so delicious",
-    "position": {
-      "lat": 22.786310789104277,
-      "lng": 76.01440429687501
+{
+  "cities": [
+    {
+      "cityName": "Indore",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2022-04-31T15:59:59.138Z",
+      "notes": "My favorite city so far !!. Cleanest city of India and it's true. Street food are so delicious",
+      "position": {
+        "lat": 22.786310789104277,
+        "lng": 76.01440429687501
+      },
+      "id": 73930385
     },
-    "id": 73930385
-  },
-  {
-    "cityName": "Abu Dhabi",
-    "country": "United Arab Emirates",
-    "emoji": "🇦🇪",
-    "date": "2022-07-15T08:22:53.976Z",
-    "notes": "",
-    "position": {
-      "lat": "24.41714202537205",
-      "lng": "54.52514648437501"
+    {
+      "cityName": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "emoji": "🇦🇪",
+      "date": "2022-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": "24.41714202537205",
+        "lng": "54.52514648437501"
+      },
+      "id": 17806751
     },
-    "id": 17806751
-  },
-  {
-    "cityName": "Dubai",
-    "country": "United Arab Emirates",
-    "emoji": "🇦🇪",
-    "date": "2023-04-03T07:47:59.202Z",
-    "notes": "Dream come's ture.A luxurious city",
-    "position": {
-      "lat": "25.005972656239187",
-      "lng": "54.99755859375001"
+    {
+      "cityName": "Dubai",
+      "country": "United Arab Emirates",
+      "emoji": "🇦🇪",
+      "date": "2023-04-03T07:47:59.202Z",
+      "notes": "Dream come's ture.A luxurious city",
+      "position": {
+        "lat": "25.005972656239187",
+        "lng": "54.99755859375001"
+      },
+      "id": 98443198
     },
-    "id": 98443198
-  },
-  {
-    "cityName": "Kathmandu",
-    "country": "Nepal",
-    "emoji": "🇳🇵",
-    "date": "2023-09-30T08:13:16.106Z",
-    "notes": "Religious monuments are damm beautifull, Worth visiting temples.",
-    "position": {
-      "lat": "27.72243591897343",
-      "lng": "85.40771484375001"
-    },
-    "id": 98443199
-  }
-]
+    {
+      "cityName": "Kathmandu",
+      "country": "Nepal",
+      "emoji": "🇳🇵",
+      "date": "2023-09-30T08:13:16.106Z",
+      "notes": "Religious monuments are damm beautifull, Worth visiting temples.",
+      "position": {
+        "lat": "27.72243591897343",
+        "lng": "85.40771484375001"
+      },
+      "id": 98443199
+    }
+  ]
+}

@@ -6,8 +6,7 @@ import {
   useCallback,
 } from "react";
 
-const BASE_URL = "https://prabhsingh20.github.io/worldwise/data/cities.json";
-// const BASE_URL = "http://localhost:7000";
+const BASE_URL = "http://localhost:7000";
 
 const CitiesContext = createContext();
 
@@ -72,7 +71,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: "loading" });
 
       try {
-        const res = await fetch(`${BASE_URL}`);
+        const res = await fetch(`${BASE_URL}/cities`);
         const data = await res.json();
         console.log(data);
         dispatch({ type: "cities/loaded", payload: data });
